@@ -1,0 +1,610 @@
+   @include('frontend.partial.header');  
+        <!-- header end-->
+        <main class="main">
+            <!-- promo start-->
+            <section class="promo">
+                <div class="promo-slider">
+                    <div class="promo-slider__item promo-slider__item--style-1">
+                        <picture>
+                            <source srcset="public/frontend/img/slider/10-IFB-1912.jpg" media="(min-width: 835px)" />
+                            <source srcset="public/frontend/img/slider/10-IFB-1912.jpg" media="(min-width: 376px)" /><img
+                                class="img--bg" src="public/frontend/img/slider/10-IFB-1912.jpg" alt="img" />
+                        </picture>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="align-container">
+                                        <div class="align-container__item">
+                                            <div class="promo-slider__wrapper-1">
+                                                <h2 class="promo-slider__title"><span style="color:#80a8fb;"></span>
+                                                </h2>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo-slider__item promo-slider__item--style-2">
+                        <picture>
+                            <source srcset="public/frontend/img/slider/slider-light-min.jpg" media="(min-width: 835px)" />
+                            <source srcset="public/frontend/img/slider/slider-light-min.jpg" media="(min-width: 376px)" /><img
+                                class="img--bg" src="public/frontend/img/slider/slider-light-min.jpg" alt="img" />
+                        </picture>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-7">
+                                    <div class="align-container">
+                                        <div class="align-container__item">
+                                            <div class="promo-slider__wrapper-1">
+                                                <h2 class="promo-slider__title"><span></span><br /><span>Bringing
+                                                        Light</span></h2>
+                                            </div>
+                                            <div class="promo-slider__wrapper-2">
+
+                                            </div>
+                                            <!--<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo-slider__item promo-slider__item--style-3">
+                        <picture>
+                            <source srcset="public/frontend/img/slider/slider-micro-min.jpg" media="(min-width: 835px)" />
+                            <source srcset="public/frontend/img/slider/slider-micro-min.jpg" media="(min-width: 376px)" /><img
+                                class="img--bg" src="public/frontend/img/slider/slider-micro-min.jpg" alt="img" />
+                        </picture>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-8 offset-xl-2">
+                                    <div class="align-container">
+                                        <div class="align-container__item">
+                                            <div class="promo-slider__wrapper-1">
+                                                <h2 class="promo-slider__title"><span>Aurko Foundation
+                                                        </span><br /><span>Ingenous Pulmo Fit</span></h2>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo-slider__item promo-slider__item--style-3">
+                        <picture>
+                            <source srcset="public/frontend/img/slider/slider-smiling-min.jpg" media="(min-width: 835px)" />
+                            <source srcset="public/frontend/img/slider/slider-smiling-min.jpg" media="(min-width: 376px)" /><img
+                                class="img--bg" src="public/frontend/img/slider/slider-smiling-min.jpg" alt="img" />
+                        </picture>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-8 offset-xl-2">
+                                    <div class="align-container">
+                                        <div class="align-container__item">
+                                            <div class="promo-slider__wrapper-1">
+                                                <h2 class="promo-slider__title"><span>Make an
+                                                        Aurko</span><br /><span>Help them to smile.</span></h2>
+                                            </div>
+                                            <!--<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfish</p>
+												</div>-->
+                                            <div class="promo-slider__wrapper-3"><a
+                                                    class="button promo-slider__button button--primary"
+                                                    href="img/donate-us.jpg" data-fancybox="images">Donate Us</a></div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- promo socials start-->
+                <ul class="promo-socials">
+                    <li class="promo-socials__item"><a class="promo-socials__link" href="#"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a></li>
+                    
+                    
+                    <li class="promo-socials__item"><a class="promo-socials__link" href="#"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+                <!-- promo socials end-->
+                <!-- promo pannel start-->
+                
+                <!-- promo pannel end-->
+                <!-- slider nav start-->
+                <div class="slider__nav slider__nav--promo">
+                    <div class="promo-slider__count"></div>
+                    <div class="slider__arrows">
+                        <div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider nav end-->
+            </section>
+            <!-- promo end-->
+            <!-- about us start-->
+            <section class="section about-us">
+					<div class="container">
+
+                        <?php 
+
+                          $ourinceptions=DB::table('tbl_our_inceptions')->limit(1)->get();
+
+
+                        ?>
+
+                        @foreach($ourinceptions as $ourinception)
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-xl-5">
+								<div class="img-box"><img class="img--layout" src="public/frontend/img/demo.jpg" alt="img"/>
+									<div class="img-box__img"><img class="img--bg" src="public/frontend/img/{{$ourinception->image}}" alt="img"/></div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-xl-6 offset-xl-1">
+								<div class="heading heading--primary"><!--<span class="heading__pre-title">About Us</span>-->
+									<h2 class="heading__title"><span>Mission & Vission </span></h2>
+								</div>
+								<!--<p><strong>Thresher shark rudd African lungfish silverside, 
+								Red salmon rockfish grunion, garpike zebra danio king-of-the-salmon banjo catfish."</strong></p>-->
+								AURKO Foundation is a non-government, non-profitable, non-political, voluntary and charitable organization in Bangladesh since November 2020. 
+								It performs its activities to the best of its efforts in the interest of mankind regardless of caste, colour, and religion and so on. Study of its scholars and services of its business experts combined serves, 
+								nurtures and furnishes several sectors of our society with its finest services. 
+								
+                                    To provide comprehensive care that satisfies the needs of underdeveloped communities through voluntary activities, health care services, financial support, entrepreneur’s empowerment and technology.
+									<br>
+                                    To build a world with smiles, 
+									free from all forms of discrimination where everybody will be treated with equal rights and individuals will realise their potentials.
+								
+                                      </p><a class="button button--primary" href="about.html">More About</a>
+							</div>
+						</div>
+
+                        @endforeach
+					</div>
+				</section>
+
+            <!-- about us end-->
+
+
+            
+
+            <!-- icons section start-->
+            <section class="section">
+                <div class="container">
+                    <div class="row align-items-end margin-bottom">
+                        <div class="col-sm-10 text-center">
+                            <div class="heading heading--primary"><span class="heading__pre-title">Major
+                                    Activities</span>
+                                <h2 class="heading__title no-margin-bottom"><span>{{__('menu.ourrunningprojects')}}</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 text-sm-right">
+                            <!-- slider nav start-->
+                            <div class="slider__nav projects-slider__nav">
+                                <div class="slider__arrows">
+                                    <div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slider nav end-->
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-slider">
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="chudangap.html">AURKO FOundation</a></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="sjwp.html">AURKO Foundation</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="jibontari.html">AURKO Foundation</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="jibonmela.html">IMPACT ‘Jibon Mela’
+                                            Health Centre</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="nursing.html">IMPACT Nursing
+                                            Institute</a></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="proshanti.html">PROSHANTI</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/project/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="jibonjatra.html">IMPACT ‘Jibon Jatra’ Medical Van</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="leprosy.html">Leprosy Project</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="sidko.html">School SIDKO and Hygiene Program</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/project/hypo/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="hydrocephalus.html">Hydrocephalus Project</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__item">
+                        <div
+                            class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+                            <div class="projects-masonry__img"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <div class="projects-masonry__inner">
+                                    <!--<span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>-->
+                                    <h3 class="projects-masonry__title"> <a href="homegarden.html">Home Garden</a></h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- icons section end-->
+
+
+           
+            <!-- causes start-->
+
+
+            <section class="section blog blog--front_3"><img class="blog__bg" src="public/frontend/img/demo.jpg" alt="img" />
+                <div class="container">
+                    <div class="row margin-bottom">
+                        <div class="col-12">
+                            <div class="heading heading--primary heading--center"><span
+                                    class="heading__pre-title">Stories</span>
+                                <h2 class="heading__title no-margin-bottom"><span>AURKO</span> <span>{{__('menu.wemake')}}</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row offset-margin">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="blog-item blog-item--style-1">
+                                <div class="blog-item__img"><img class="img--bg" src="public/frontend/img/demo.jpg" alt="img" /></div>
+                                <div class="blog-item__content">
+                                    <h6 class="blog-item__title"><a href="story-abulkalam.html">“Jibon Tari
+                                            is a light of hope for destitute people and for the country. May God bless
+                                            the hospital to serve more and more” <br /><br /></a></h6>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="blog-item blog-item--style-1">
+                                <div class="blog-item__img"><img class="img--bg" src="public/frontend/img/demo.jpg" alt="img" /></div>
+                                <div class="blog-item__content">
+                                    <h6 class="blog-item__title"><a href="story-sapia.html">“I will pray for team IMCHC
+                                            till my last breathe because of them I regained not
+                                            only my vision but also my self-esteem “<br /><br /></a></h6>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="blog-item blog-item--style-1">
+                                <div class="blog-item__img"><img class="img--bg" src="public/frontend/img/demo.jpg" alt="img" />
+                                </div>
+                                <div class="blog-item__content">
+                                    <h6 class="blog-item__title"><a href="story-konoklota.html">Konoklota is so satisfied
+                                            with the training. If she faces any problems or have any question
+                                            related to pregnancy care, she come to ask IFB’s gynecologist.</a></h6>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- text section end-->
+            <!-- testimonials style-2 start-->
+            <section class="section no-padding-top no-padding-bottom">
+                <div class="row no-gutters">
+                    <div class="col-xl-6">
+                        <div class="action-block">
+                            <div class="action-block__inner"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <h3 class="action-block__title">Aurko nursing institute</h3>
+                                <p class="action-block__text"><br /><br /><br /><br /><br /><br /></p><a
+                                    class="action-block__link button button--primary" href="nursing.html">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="action-block">
+                            <div class="action-block__inner"><img class="img--bg" src="public/frontend/img/demo.jpg"
+                                    alt="img" />
+                                <h3 class="action-block__title">You can make change Help them to smile</h3>
+                                <p class="action-block__text"><br /><br /><br /><br /></p><a
+                                    class="action-block__link button button--primary" href="public/frontend/img/demo.jpg"
+                                    data-fancybox="images">Donate Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- testimonials style-2 end-->
+            <!-- blog start-->
+
+            <!-- blog end-->
+            <!-- donors start-->
+            <section class="section donors pt-5">
+                <div class="container">
+                    <div class="row margin-bottom pt-3">
+                        <div class="col-12">
+                            <div class="heading heading--primary heading--center">
+                                <!--<span class="heading__pre-title">Donors</span>-->
+                                <h2 class="heading__title no-margin-bottom"><span>{{__('menu.ourvaluabledonors')}}</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- donors slider start-->
+                            <div class="slider-holder">
+                                <div class="donors-slider donors-slider--style-1" id="donorsList">
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://impact.org.uk/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a>
+                                        </div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://dak.org.au/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a></div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://www.smiletrain.org/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a></div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://www.altso.org/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a></div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://bachaohelp.org/main"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a></div>
+                                    </div>
+
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://www.tlmbangladesh.org/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a>
+                                        </div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://impactnorway.org/en/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg"
+                                                    alt="donor" /></a></div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="https://www.wateraid.org/bd/"
+                                                target="_blank"><img src="public/frontend/img/demo.jpg" alt="donor" /></a></div>
+                                    </div>
+                                    <div class="donors-slider__item">
+                                        <div class="donors-slider__img"><a href="#" target="_blank"><img
+                                                    src="public/frontend/img/demo.jpg" alt="donor" /></a></div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- donors slider end-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- donors end-->
+
+        </main>
+        
+        
+        <style>
+            
+            /*Social Feeds*/
+
+            section.social_feeds {
+                background-color: #20212b;
+            }
+            
+            section.social_feeds h2 {
+                color: #fff;
+                padding-top: 80px;
+                padding-bottom: 50px;
+            }
+            
+            section.social_feeds h5 {
+                color: #fff;
+            }
+            
+            section.social_feeds h5 {
+                color: #fff;
+                padding-bottom: 10px;
+            }
+            
+            section.social_feeds {
+                background-color: #20212b;
+                padding-bottom: 50px;
+            }
+            
+            div#instafeed-container a {
+                width: 33%;
+                display: block !important;
+                float: left;
+                height: auto;
+                padding: 10px;
+            }
+            
+            div#instafeed-container a img {
+                width: 100%;
+            }
+            
+            div#instafeed-container {
+                display: block !important;
+                overflow: hidden;
+            }
+        </style>
+        
+       <!--  <section class="social_feeds" style="background-color:#717571">
+            <div class="container">
+            <h2 class="heading__title no-margin-bottom text-center"><span>Social</span>
+                                    <span>Feeds</span></h2>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <h5 class="text-center"><i class="fa fa-facebook-square"></i>&nbsp;Facebook Feed</h5>
+                        <div class="fb-page" data-href="https://www.facebook.com/" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/www.impactfoundationbd.org/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/">Aurko Foundation</a></blockquote></div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-center"><i class="fa fa-instagram"></i>&nbsp;Instagram Feed</h5>
+                        
+                        <script src="../static.elfsight.com/platform/platform.js" defer></script>
+<div class="elfsight-app-44a8e829-8dcb-485f-a280-c01782c84d30"></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <style>
+        
+        .modal-content {
+            width: 630px;
+            }
+        </style>
+<!-- <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Aurko Foundation Official Notice</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+               <img src="public/frontend/img/JTAnniversary.jpg">
+                
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary mx-auto" data-dismiss="modal">Close</button>
+                <button><a class="aside-menu__link" href="locale/bn">Bangla
+                                            
+                                        </a></button>
+            </div>
+        </div>
+    </div>
+</div> -->
+        <!-- footer start-->
+        @include('frontend.partial.footer');                       
+                                            

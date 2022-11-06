@@ -1,0 +1,226 @@
+/*================root start============================*/
+
+:root {
+    --nav_bg:  #366BA1;
+    --nav_a_color:#FFFFFF;
+    --nav_bg_hover:  #337ab7;
+    --nav_hover_a_color:  #36ac8b;
+    --menu_dropdown_bg:  #ffffff;
+    --bg_secondary_color:#fe414d;
+
+}
+/*================menu_bar start============================*/
+
+.menu_bar{}
+.menu_bar .navbar{ 
+    background:var(--nav_bg);
+    padding: 0px !important;
+    text-transform: uppercase;
+}
+.menu_bar .nav-item{
+    padding: 0px 5px;
+    line-height: 50px;
+    border-right: 1px solid var(--nav_bg_hover);
+    
+}
+.menu_bar  .nav-item:hover{
+    background:var(--nav_bg_hover);
+
+}
+.navbar-nav  a{
+    color: var(--nav_a_color)!important;
+}
+
+
+
+.navbar_main .navbar-nav .active>.nav-link,
+.navbar_main .navbar-nav .nav-link.active,
+.navbar_main .navbar-nav .nav-link.show,
+.navbar_main .navbar-nav .show>.nav-link{
+    color: var(--menu_color_two);
+}
+.navbar_main .navbar-nav .nav-link{
+    color: var(--menu_color_two);
+    text-transform: uppercase;                           
+    font-size: 13px;
+}
+
+
+.navbar-toggler{background: var(--nav_bg_hover)}
+
+.dropdown-menu{
+    border: 0px;
+}
+
+.dropdown .dropdown-menu {
+    transition: all 0.3s;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    background:var(--menu_dropdown_bg);
+    border:0px;
+    border-radius: 0px;
+    margin-top: -1px;
+    padding: 0px;
+    /*border-top: 1px solid var(--bg_secondary_color);*/
+    line-height: 30px;
+
+}
+
+.dropdown .dropdown-menu a{
+    color: #111111!important;
+}
+/*.dropdown .dropdown-menu:hover,*/
+.dropdown .dropdown-menu a:hover{
+    color: #ffffff!important;
+}
+
+
+.dropdown-item{ 
+    font-size: 13px; 
+    color: var(--menu_color_two); 
+    transition: all 0.3s ease-in-out;
+    padding-top: 10px; 
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--nav_bg_hover);
+
+}
+.dropdown-item:last-child{
+    border-bottom: 0px;
+}
+.dropdown-item .fa{
+    display: none;
+}
+.dropdown-item:hover{
+    background:var(--nav_bg_hover);
+    color:white; 
+
+}
+.dropdown-item a:hover .fa{
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>a:after {
+    content: "\f0da";
+    float: right;
+    border: none;
+    font-family: 'FontAwesome';
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+
+.dropdown-item .fa{
+    margin-right: 10px;
+}
+
+
+
+/*******hove effect*********/
+
+
+.is-sticky .dropdown .dropdown-menu{margin-top:0px;}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 500px;
+    opacity: 1;
+}
+
+
+
+
+
+
+.megamenu-li {
+    position: static;
+    padding: -2px;
+    margin: 0px;
+    font-size: 16px!important;
+
+}
+.megamenu{padding: 15px;}
+
+/*hover indicator */
+.dropdown-menu::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid 
+        transparent;
+    border-right: 10px solid
+        transparent;
+    border-bottom: 10px solid
+        #111;
+    border-bottom-color: red;
+    position: absolute;
+    left: 24px;
+    top: -10px;
+    opacity: 1;
+}
+
+/* ==================================================
+  Sticky
+  ================================================== */
+
+.sticky.navbar {
+    border-radius: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    /*border-bottom: 1px solid #E0E0E0;*/
+}
+.sticky .show-is-sticky,
+.sticky .show-not-sticky {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.sticky .show-not-sticky {
+    opacity: 1;
+    visibility: visible;
+}
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+.sticky.is-sticky.navbar {
+    background-color: var(--nav_bg);;
+}
+.sticky.is-sticky .show-is-sticky {
+    opacity: 1;
+    visibility: visible;
+}
+.sticky.is-sticky .show-not-sticky {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/*================menu_bar end============================*/
+

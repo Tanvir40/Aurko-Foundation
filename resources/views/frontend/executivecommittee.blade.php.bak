@@ -1,0 +1,138 @@
+@include('frontend.partial.header')
+
+			<main class="main">
+				<section class="promo-primary">
+					<picture>
+						<source srcset="public/frontend/img/backgroundimage.jpg" media="(min-width: 992px)"/><img class="img--bg" src="public/frontend/img/backgroundimage.jpg" alt="img"/>
+					</picture>
+					<div class="promo-primary__description"> <span></span></div>
+					<div class="container" >
+						<div class="row">
+							<div class="col-auto">
+								<div class="align-container" style="text-align:center;">
+									<div class="align-container__item" >
+										<h1 class="promo-primary__title"><span>Executive Comittee</span></h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- blog start-->
+				<section class="section blog background--brown"><img class="blog__bg" src="img/events_inner-bg.png" alt="img"/>
+					<div class="container">
+						<div class="row offset-margin">
+							
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/profilepic.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name: Salma Sultana</p></br>
+									<p>Possition: Chairman</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/executivecommittee/Dr.Md.EstiakHossain(1).JPG" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name:Dr. Md. Estiak Hossain</p>
+									<p>Possition: Vice-Chairman</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/executivecommittee/TanvirAhmed.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name:Tanvir Ahmed</p>
+									<p>Possition: Secretary</p>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/executivecommittee/Md.RabiulAlam.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name:Rabiul Alam</p>
+									<p>Possition: Assistant Secretary</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/executivecommittee/Mohammad MerajulIslam.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name: Mohammad Merajul Islam</p></br>
+									<p>Possition: Member</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/profilepic.jpg" alt="img"/>
+                                        </a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/profilepic.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name: Mona Marzan</p></br>
+									<p>Possition: Member</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/profilepic.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name: Farzana Fariha</p></br>
+									<p>Possition: Member</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img">
+									<a href="public/frontend/img/profilepic.jpg" data-fancybox="gallery">
+									<img class="img--bg" src="public/frontend/img/profilepic.jpg" alt="img"/>
+                                        </a>
+									</div>
+									<p>Name:</p></br>
+									<p>Possition:</p>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+						
+					</div>
+				</section>
+				<!-- blog end-->
+				<!-- bottom bg start-->
+				
+				<!-- bottom bg end-->
+			</main>
+			<!-- footer start-->
+			@include('frontend.partial.footer')

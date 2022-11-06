@@ -1,0 +1,51 @@
+	@include('frontend.partial.header')
+
+			<main class="main">
+				<section class="promo-primary">
+					<!--<picture>
+						<source srcset="public/frontend/img/story-dtl-bnr-min.jpg" media="(min-width: 992px)"/><img class="img--bg" src="public/frontend/img/story-dtl-bnr-min.jpg" alt="img"/>
+					</picture>-->
+					<div class="promo-primary__description"> <span></span></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-auto">
+								<div class="align-container">
+									<div class="align-container__item"><span class="promo-primary__pre-title"></span>
+										<h1 class="promo-primary__title"><span>Our</span> <span>Patron</span></h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- stories start-->
+				<section class="section stories">
+					<div class="container">
+						<div class="row offset-70">
+							
+							<div class="col-md-10 offset-md-1 col-lg-12 offset-lg-0">
+								<div class="stories-item">
+									<div class="row align-items-center flex-column-reverse flex-lg-row">
+										<div class="col-lg-6 col-xl-6">
+											<div class="heading heading--primary">
+												<h2 class="heading__title"><span>AURKO </span> <span>Our Patron</span></h2>
+											</div>
+											<p>AURKO Foundation is a non-government, non-profitable, non-political, voluntary and charitable organization in Bangladesh since November 2020. It performs its activities to the best of its efforts in the interest of mankind regardless of caste, colour, and religion and so on. Study of its scholars and services of its business experts combined serves, nurtures and furnishes several sectors of our society with its finest services. 
+</p><!--<a class="button stories-item__button button--primary" href="storie-details.php">Read Story</a>-->
+										</div>
+										<div class="col-lg-6 col-xl-5 offset-xl-1">
+											<div class="img-box"><img class="img--layout" src="public/frontend/img/storie_2-layout.png" alt="img"/>
+												<div class="img-box__img"><img class="img--bg" src="public/frontend/img/demo.jpg" alt="img"/></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+				<!-- stories end-->
+			</main>
+			<!-- footer start-->
+			@include('frontend.partial.footer')

@@ -1,0 +1,54 @@
+	@include('frontend.partial.header')
+
+			<main class="main">
+				<!--<section class="promo-primary">
+					<picture>
+						<source srcset="public/frontend/img/story-dtl-bnr-min.jpg" media="(min-width: 992px)"/><img class="img--bg" src="public/frontend/img/story-dtl-bnr-min.jpg" alt="img"/>
+					</picture>
+					<div class="promo-primary__description"> <span></span></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-auto">
+								<div class="align-container">
+									<div class="align-container__item"><span class="promo-primary__pre-title"></span>
+										<h1 class="promo-primary__title"><span>Our</span> <span>Projects</span></h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				 stories start-->
+				<section class="section stories">
+					<div class="container">
+						<div class="row offset-70">
+							
+							<div class="col-md-10 offset-md-1 col-lg-12 offset-lg-0">
+								<div class="stories-item">
+									<div class="row align-items-center flex-column-reverse flex-lg-row">
+										<div class="col-lg-6 col-xl-6">
+											<div class="heading heading--primary">
+												<h2 class="heading__title"><span>AURKO </span> <span>Foundation Programme</span></h2>
+											</div>
+											<p>Allah is the source of all creation. He has created us and enriched us with resources. The purpose of this luxuriance is to stand beside to those who are in need. If we can strategically measure our resources then we can understand how effective resources are. If we grab the opportunity Allah gave us it may ensure the socio-economic development of our society, nation meanwhile country at a large. I believe without dedication, commitment, hard work and co-operation there cannot be peace, without promoting human rights, social development, education, health and people empowerment activities a progressive Bangladesh would be a dream. Without any planned manner we cannot go too far.
+Keeping this in mind we have formed a foundation which will work for the mankind. When we give water at the root, it is flowed to every branch of the tree. Similarly, our aim is to solve the actual problems on the ground. We will engage in lively discussions with individuals, organizations, corporations, governments, international organizations, researchers, and volunteers to arrive at possible solutions and to initiate and implement projects with development motive. 
+Together we can face the future with confidence and optimism.
+
+</p><!--<a class="button stories-item__button button--primary" href="storie-details.php">Read Story</a>-->
+										</div>
+										<div class="col-lg-6 col-xl-5 offset-xl-1">
+											<div class="img-box"><img class="img--layout" src="public/frontend/img/storie_2-layout.png" alt="img"/>
+												<div class="img-box__img"><img class="img--bg" src="public/frontend/img/demo.jpg" alt="img"/></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+				<!-- stories end-->
+			</main>
+			<!-- footer start-->
+			@include('frontend.partial.footer')
