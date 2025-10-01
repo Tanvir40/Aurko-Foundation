@@ -28,8 +28,8 @@
                                     <div class="col-md-6 col-lg-5 col-xl-4">
                                         <div class="blog-item blog-item--style-1">
                                             <div class="blog-item__img">
-                                            <a href="{{asset('frontend/img/executivecommittee')}}/{{$executivecommitte->photo}}" data-fancybox="gallery">
-                                            <img class="img--bg" src="{{asset('frontend/img/executivecommittee')}}/{{$executivecommitte->photo}}" alt="img"/>
+                                            <a href="https://tanvirhasan.dev/images/me.jpeg" data-fancybox="gallery">
+                                            <img class="img--bg" src="https://tanvirhasan.dev/images/me.jpeg" alt="img"/>
                                                 </a>
                                             </div>
                                             <p>{{$executivecommitte->name}}</p>

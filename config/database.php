@@ -46,9 +46,9 @@ return [
              'mysql' => array(
              'driver'    => 'mysql',
              'host'      => 'localhost',
-             'database'  => 'aurkofou_aurko123',
-             'username'  => 'aurkofou_aurko123',
-             'password'  => '4If5:LP7Ai:mp7',
+             'database'  => 'aurko',
+             'username'  => 'root',
+             'password'  => '',
              'charset'   => 'utf8',
              'collation' => 'utf8_unicode_ci',
              'prefix'    => '',
